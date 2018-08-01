@@ -48,4 +48,3 @@ document.querySelector('.player-two-output').textContent = 'scissors'
 }  
 
 document.querySelector('.scissors-button-player-two').addEventListener('click', playerTwoScissorsButtonClick)
-
