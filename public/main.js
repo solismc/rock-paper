@@ -48,3 +48,10 @@ document.querySelector('.player-two-output').textContent = 'scissors'
 }  
 
 document.querySelector('.scissors-button-player-two').addEventListener('click', playerTwoScissorsButtonClick)
+
+const playerOneNameButtonClick = () => {
+  console.log('player name button is clicked')
+const playerOneName = document.querySelector('.player-name-one-input').textContent
+}
+document.querySelector('.player-one-name-button').addEventListener('click', playerOneNameButtonClick)
+
